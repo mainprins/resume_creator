@@ -7,8 +7,8 @@ const Features = () => {
 
     return (
         <div className='flex flex-col gap-5 items-center w-full justify-center'>
-            <Badge title={'simple to create'}/>
-            <Title title={'Build your resume'} desc={'Build a perfect resume in minutes  — smart, fast, and effortless!'}/>
+            <Badge title={'Easy & Smart'}/>
+            <Title title={'Create Your Resume'} desc={'Build a professional resume in minutes — smart, fast, and effortless!'}/>
             <div className="flex flex-col md:flex-row items-center justify-center" id='features'>
 
                 <img className="max-w-2xl w-full xl:-ml-32" src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/features/group-image-1.png" alt="" />
@@ -23,9 +23,9 @@ const Features = () => {
 
                             <div className="space-y-2">
 
-                                <h3 className="text-base font-semibold text-slate-700">Real-Time Analytics</h3>
+                                <h3 className="text-base font-semibold text-slate-700">AI-Powered Job Descriptions</h3>
 
-                                <p className="text-sm text-slate-600 max-w-xs">Get instant insights into your finances with live dashboards.</p>
+                                <p className="text-sm text-slate-600 max-w-xs">Automatically enhance your job roles with smart, professional descriptions.</p>
 
                             </div>
 
@@ -41,9 +41,9 @@ const Features = () => {
 
                             <div className="space-y-2">
 
-                                <h3 className="text-base font-semibold text-slate-700">Bank-Grade Security</h3>
+                                <h3 className="text-base font-semibold text-slate-700">AI Experience Enhancer</h3>
 
-                                <p className="text-sm text-slate-600 max-w-xs">End-to-end encryption, 2FA, compliance with GDPR standards.</p>
+                                <p className="text-sm text-slate-600 max-w-xs">Transform your work experience into compelling, impactful achievements.</p>
 
                             </div>
 
@@ -59,9 +59,9 @@ const Features = () => {
 
                             <div className="space-y-2">
 
-                                <h3 className="text-base font-semibold text-slate-700">Customizable Reports</h3>
+                                <h3 className="text-base font-semibold text-slate-700">Multiple Templates & PDF Export</h3>
 
-                                <p className="text-sm text-slate-600 max-w-xs">Export professional, audit-ready financial reports for tax or internal review.</p>
+                                <p className="text-sm text-slate-600 max-w-xs">Choose professional templates and download your resume instantly in PDF format.</p>
 
                             </div>
 
