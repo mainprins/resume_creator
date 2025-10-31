@@ -272,7 +272,7 @@ const ResumeBuilder = () => {
         <span className='text-slate-600'>Back to Dashboard</span>
       </div>
       <div id="mainPart" className='flex flex-col md:flex-row w-full'>
-        <div id="left" className='shadow-sm w-1/2 flex flex-col gap-3'>
+        <div id="left" className='shadow-sm md:w-1/2 w-full flex flex-col gap-3'>
           {/* PROGRESS BAR */}
           <div className='w-full h-1 bg-slate-300'>
             <hr className={` bg-green-300 h-full border-none`} style={{ width: `${(currentSection / (sections.length - 1)) * 100}%` }} />
@@ -726,7 +726,7 @@ const ResumeBuilder = () => {
           <button className='border-green-600 border-1 ml-4 mb-3 hover:bg-green-200 transition-all duration-500 text-green-600 bg-green-100 w-max p-2 rounded-md' onClick={() => { toast.promise(saveResume, { loading: 'Saving...' }) }}>Save Changes</button>
 
         </div>
-        <div id="right" className='shadow-sm w-1/2'>
+        <div id="right" className='shadow-sm w-full md:w-1/2'>
           <div className='relative w-full'>
             <div className='w-full flex gap-2 justify-end absolute bottom-1'>
               {resumeData.public === true && <button className='border-green-100 hover:bg-green-200 text-green-600 transition-all duration-500 bg-green-100 p-2 rounded-md flex gap-2 items-center' onClick={() => shareResume()}>
