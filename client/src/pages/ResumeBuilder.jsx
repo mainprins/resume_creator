@@ -271,7 +271,7 @@ const ResumeBuilder = () => {
         <ArrowLeft className='text-slate-600' size={20} />
         <span className='text-slate-600'>Back to Dashboard</span>
       </div>
-      <div id="mainPart" className='flex w-full'>
+      <div id="mainPart" className='flex flex-col md:flex-row w-full'>
         <div id="left" className='shadow-sm w-1/2 flex flex-col gap-3'>
           {/* PROGRESS BAR */}
           <div className='w-full h-1 bg-slate-300'>
